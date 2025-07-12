@@ -17,7 +17,8 @@ This is a backend-only machine learning project that predicts the next day's sto
 (in terminal)
 
 python -m venv venv
-venv\Scripts\activate     # or source venv/bin/activate for Mac/Linux
+
+venv\Scripts\activate   &nbsp;&nbsp;    (# or source venv/bin/activate for Mac/Linux)
 
 ### To deactivate venv 
 
@@ -35,7 +36,7 @@ pip install -r require.txt
 
 (in terminal)
 
-python fetch_data.py
+python fetch.py
 ##
 ### 4. Training model
 
@@ -47,7 +48,7 @@ python train_model.py
 
 (in terminal)
 
-python test_model.py
+python predict.py
 ##
 ### Sample output
 
