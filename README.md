@@ -1,16 +1,16 @@
-# 📈 Stock Price Predictor (AI/ML Project)
+# Stock Price Predictor (AI/ML Project)
 
 This is a backend-only machine learning project that predicts the next day's stock closing price based on historical stock data. It uses Python, scikit-learn, and yfinance to fetch, train, and predict without any frontend.
 
-## 🔧 Features
+## Features
 
-- ✅ Predicts next-day closing price for any valid stock ticker (e.g., AAPL, GOOGL)
-- ✅ Fetches real-time historical stock data using yfinance
-- ✅ Trains a regression model (Random Forest)
-- ✅ Supports multiple stocks — each model is saved individually
-- ✅ Includes error handling for invalid tickers
+-  Predicts next-day closing price for any valid stock ticker (e.g., AAPL, GOOGL)
+-  Fetches real-time historical stock data using yfinance
+-  Trains a regression model (Random Forest)
+-  Supports multiple stocks — each model is saved individually
+-  Includes error handling for invalid tickers
 
-## 💻 How to Run This Project
+## How to Run This Project
 
 ### 1. Set up virtual environment
 
